@@ -20,3 +20,7 @@ O sistema tem algumas entidades:
 * [Driver](driver.md)
 * [Company](company.md)
 * [Passenger](passenger.md)
+
+O Fluxo padrão de requisições deve sempre ser intermediado pelo transport.
+Sendo assim, consultas de passageiros, empresas, motoristas, rotas, viagens, e vagas devem obrigatóriamente passar pelo Transport e nunca ir diretamente a sistemas terceiros (ex diretamente ao ORB)
+![Fluxo Padrão](diagrams/standard_information_flow.svg)
