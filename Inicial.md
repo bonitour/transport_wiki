@@ -32,4 +32,4 @@ O Transport depende do ORB para consulta de informações de cadastro sendo nece
 * Services (Leitura/Escrita/Atualização)
 * Mapa de vagas (Leitura/Escrita/Atualização)
 
-Na API temos a documentação dos endpoints utilizando swagger, disponivel em [LOCAL](http://localhost:5000)
+Na API temos a documentação dos endpoints utilizando swagger, disponivel em [DESENVOLVIMENTO LOCAL](http://localhost:5000)
