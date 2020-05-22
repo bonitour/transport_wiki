@@ -24,3 +24,12 @@ O sistema tem algumas entidades:
 O Fluxo padrão de requisições deve sempre ser intermediado pelo transport.
 Sendo assim, consultas de passageiros, empresas, motoristas, rotas, viagens, e vagas devem obrigatóriamente passar pelo Transport e nunca ir diretamente a sistemas terceiros (ex diretamente ao ORB)
 ![Fluxo Padrão](diagrams/standard_information_flow.svg)
+
+O Transport depende do ORB para consulta de informações de cadastro sendo necessário que estas informações relacionadas a essas entidades estejam disponiveis para o consumo via API.
+* Passageiros (Leitura)
+* Motoristas (Leitura)
+* Empresas (Leitura)
+* Services (Leitura/Escrita/Atualização)
+* Mapa de vagas (Leitura/Escrita/Atualização)
+
+Na API temos a documentação dos endpoints utilizando swagger, disponivel em [LOCAL](http://localhost:5000)
