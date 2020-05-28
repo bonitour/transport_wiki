@@ -59,3 +59,16 @@ O Serviço do transporte depende de dados do ORB sendo assim alguns cadastros de
         * Precisamos dos dados de todos os passageiros para vincula-los corretamente aos lugares nos veiculos e suas respectivas paradas
     1. É selecionada a viagem
     1. Efetiva-se a reserva no **ORB** 
+
+# Diagramas
+## Setup Inicial
+![Setup Inicial](diagrams/initial_setup.svg)
+
+## Fluxo padrão de informação
+![Fluxo padrão de informação](diagrams/standard_information_flow.svg)
+
+## Diagramas de classe 
+![Diagramas de classe](diagrams/relational.svg)
+
+## Listagem de viagens
+![Listagem de viagens](diagrams/trip_listing.svg)
